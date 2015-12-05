@@ -11,7 +11,7 @@ sudo yum -y install ansible >/dev/null
 # Install DGRI yum repository
 sudo rpm -Uvh https://s3.amazonaws.com/dgri-rpm-repo/x86_64/dgri-rpm-repo-1-0.1.noarch.rpm >/dev/null
 
-# Install DGRI yum repository
+# Install DGRI client software
 sudo yum install -y ansible-dgri-modules dgri-query >/dev/null
 
 # Create a sample ansible group (only localhost) that we will collect data from
